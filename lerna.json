@@ -5,7 +5,6 @@
   "npmClient": "yarn",
   "command": {
     "publish": {
-      "registry": "https://npm.pkg.github.com",
       "yes": true
     },
     "version": {
