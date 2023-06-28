@@ -8,9 +8,7 @@
       "yes": true
     },
     "version": {
-      "message": "chore(release): %s",
-      "conventionalCommits": true,
-      "exact": true
+      "message": ":hot_pepper: chore(release): publish"
     }
   }
 }
