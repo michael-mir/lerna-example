@@ -49,11 +49,7 @@ To develop all apps and packages, run the following command:
 
 `yarn dev`
 
-### Versioning
-
-`lerna version --no-private`
-
-### Publishing (+ versioning)
+### Versioning & publishing
 
 `lerna publish from-package`
 
