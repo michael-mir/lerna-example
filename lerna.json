@@ -2,5 +2,13 @@
   "$schema": "./node_modules/lerna/schemas/lerna-schema.json",
   "packages": ["packages/*", "projects/*", "tools/*"],
   "version": "independent",
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com",
+      "message": "chore(release): publish",
+      "conventionalCommits": true,
+      "allowBranch": "master"
+    }
+  }
 }
