@@ -6,9 +6,13 @@
   "command": {
     "publish": {
       "registry": "https://npm.pkg.github.com",
-      "message": "chore(release): publish",
+      "yes": true
+    },
+    "version": {
+      "message": "chore(release): %s",
       "conventionalCommits": true,
-      "allowBranch": "master"
+      "createRelease": "github",
+      "exact": true
     }
   }
 }
