@@ -8,7 +8,7 @@
       "yes": true
     },
     "version": {
-      "message": ":hot_pepper: chore(release): publish"
+      "message": ":hot_pepper: chore(release): publish %s"
     }
   }
 }

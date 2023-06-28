@@ -3,8 +3,8 @@
   "version": "0.0.8",
   "license": "MIT",
   "main": "index.js",
-  "repository": {
-    "url": "https://github.com/michael-mir/turborepo-example"
+  "publishConfig": {
+    "access": "public"
   },
   "peerDependencies": {
     "prettier": "^2.0"
