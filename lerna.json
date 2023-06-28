@@ -4,8 +4,12 @@
   "version": "independent",
   "npmClient": "yarn",
   "command": {
+    "publish": {
+      "yes": true
+    },
     "version": {
-      "message": ":hot_pepper: chore(release): publish %s"
+      "message": ":hot_pepper: chore(release): publish %s",
+      "conventionalCommits": true
     }
   }
 }
