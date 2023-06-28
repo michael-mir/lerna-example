@@ -4,9 +4,6 @@
   "version": "independent",
   "npmClient": "yarn",
   "command": {
-    "publish": {
-      "yes": true
-    },
     "version": {
       "message": ":hot_pepper: chore(release): publish %s"
     }

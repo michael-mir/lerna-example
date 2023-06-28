@@ -6,6 +6,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "url": "https://github.com/michael-mir/lerna-example"
+  },
   "peerDependencies": {
     "eslint": "^8.0"
   },
