@@ -1,0 +1,19 @@
+{
+  "name": "@michael-mir/tools-prettier",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "repository": {
+    "url": "https://github.com/michael-mir/turborepo-example"
+  },
+  "peerDependencies": {
+    "prettier": "^2.0"
+  },
+  "dependencies": {
+    "prettier": "^2.8.8"
+  }
+}

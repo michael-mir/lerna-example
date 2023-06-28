@@ -1,0 +1,22 @@
+{
+  "name": "lerna-example",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "test": "lerna run test",
+    "build": "lerna run build",
+    "lint": "eslint \"**/*.{ts,tsx}\"",
+    "format": "prettier --write \"**/*.{ts,tsx}\"",
+    "release": "lerna run lint,test,build && lerna version && lerna publish"
+  },
+  "devDependencies": {
+    "@michael-mir/tools-eslint": "*",
+    "@michael-mir/tools-prettier": "*",
+    "lerna": "^7.1.1",
+    "nx": "^16.4.0"
+  }
+}

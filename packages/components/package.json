@@ -1,0 +1,26 @@
+{
+  "name": "@michael-mir/packages-components",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "scripts": {
+    "lint": "eslint \"**/*.{ts,tsx}\""
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "repository": {
+    "url": "https://github.com/michael-mir/turborepo-example"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@michael-mir/tools-eslint": "*",
+    "@michael-mir/tools-tsconfig": "*",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  }
+}
