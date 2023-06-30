@@ -9,6 +9,7 @@
     },
     "version": {
       "message": ":hot_pepper: chore(release): publish %s",
+      "changelogPreset": "conventionalcommits",
       "conventionalCommits": true
     }
   }
